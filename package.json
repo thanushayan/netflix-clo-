@@ -7,18 +7,19 @@
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
     "axios": "^0.21.1",
-    "eslint": "^7.13.0",
     "firebase": "^8.0.2",
+    "force": "^0.0.3",
     "fuse.js": "^6.4.3",
     "movie-trailer": "^2.0.7",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "^5.0.1",
     "react-youtube": "^7.13.1",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "webpack": "^5.89.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -42,6 +43,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "postcss-safe-parser": "^5.0.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "source-map-loader": "^4.0.1"
   }
 }
